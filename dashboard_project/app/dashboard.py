@@ -13,8 +13,8 @@ import os
 
 # ── Path resolution ────────────────────────────────────────────────────────
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "data", "processed")
-MAPS = os.path.join(ROOT, "outputs", "maps")
+DATA = os.path.join(ROOT, "Data", "Processed")
+MAPS = os.path.join(ROOT, "Outputs", "maps")
 
 st.set_page_config(
     page_title="Crop Residue & Bioenergy Dashboard",
