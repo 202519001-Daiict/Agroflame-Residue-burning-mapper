@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots
 import os
 
 # ── Path resolution ────────────────────────────────────────────────────────
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA = os.path.join(ROOT, "Data", "Processed")
 MAPS = os.path.join(ROOT, "Outputs", "maps")
 
